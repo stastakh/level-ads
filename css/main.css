@@ -548,6 +548,16 @@ input:-ms-input-placeholder {
     flex-direction: column;
 }
 
+@media screen and (max-width: 540px) {
+	.case_description {
+		padding: 0 12%;
+	}
+
+	.case_text {
+		width: 100%;
+	}
+}
+
 /*//////////////////////////////////////////////////*/
 /*CONTEXT ADS*/
 
